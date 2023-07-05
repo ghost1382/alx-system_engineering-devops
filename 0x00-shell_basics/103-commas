@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s," */ .[^.] | awk '{gsub("/$", "/,"); printf $0}'
+ls -amp | sort -d
