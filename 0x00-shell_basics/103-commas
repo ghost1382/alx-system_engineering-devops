@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | sed ':a;N;$!ba;s/\n/, /g;s/,$/\n/'
+printf "%s," */ .[^.] | awk '{gsub("/$", "/,"); printf $0}'
