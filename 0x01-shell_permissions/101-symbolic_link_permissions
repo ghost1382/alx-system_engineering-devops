@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -h 1000:50 _hello
+chown vincent:staff _hello
