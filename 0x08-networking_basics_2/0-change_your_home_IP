@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 # changes the following domain resolve ips
 #   localhost from 127.0.0.1 to 127.0.0.2
